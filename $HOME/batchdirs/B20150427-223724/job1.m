@@ -1,0 +1,2 @@
+addpath(genpath('D:\BEST FOLDER EVER\School Work\BU\F14\Kopell Lab\gap jxns\dnsim\matlab')); try rng('shuffle'); end; load('spec1.mat','modelspec'); biosimdriver(modelspec,'rootoutdir','D:\BEST FOLDER EVER\School Work\BU\F14\Kopell Lab\gap jxns\dnsim\soma-multiplicity\20150427','prefix','job0001_soma-multiplicity50_time0-4000','cluster_flag',1,'batchdir','$HOME/batchdirs/B20150427-223724','jobname','job1.m','savedata_flag',1,'savepopavg_flag',1,'savespikes_flag',1,'saveplot_flag',1,'plotvars_flag',1,'plotrates_flag',1,'plotpower_flag',1,'overwrite_flag',1);
+exit
